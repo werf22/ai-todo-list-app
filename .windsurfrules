@@ -6,8 +6,8 @@ These rules define the operational guidelines for the AI assistant working on th
 
 ## === Global Rules (Apply to All Interactions) ===
 
-### 🔄 Use of MCP
-1.  ** For documentation of languages and API use Context7 MCP or use search to find out.
+### 🔄 Use of MCP for coding reference (Grounding so you don't hallucinate)
+1.  **When coding:** Use Context7 MCP where is documentation and references for all languages and APIs. If not found there (especialy API) you can find them by using search.
 
 ### 🔄 Project Awareness & Context
 
@@ -112,3 +112,9 @@ Write bit of documentation also to the code, so any AI who never seen this app u
 ### EXTREMELY IMPORTANT RULE !!!!
 *   WHEN UPDATING / ADDING to  `TASK.md`, `README.md`, `DONE.md`, `PROJECTS_FILE_STRUCTURE_DOCUMENTATION.md` you CAN NOT DELETE ANYTHING, you can only ADD. NEVER ever delete anything from these files. Only ADD. You don't replace. You just ADD. 
 *   Only in `PROJECTS_FILE_STRUCTURE_DOCUMENTATION.md` you can add new folders or files,  based on how the structure actually is but you have to add them to the existing structure.
+
+### ROBUS DEBUG LOG
+*   Always create a a robus rebug log for elements, backend, frontend, ai, tests and everything, so we can always see what is going on and where the problem is. Idealy that you can see it real time and can fix it real time.
+
+### TEST EVERY NEW FUNCTION / FEATURE / UI, etc.
+*   Always after making changes in code (creating new function, feature, UI, UX, database etc.) run tests to make sure everything works as expected. If tests fail, fix the issue and run tests again until everything is working as expected. 
